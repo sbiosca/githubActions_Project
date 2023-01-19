@@ -28,3 +28,24 @@ jobs:
         with:
           name: result
           path: ./result.txt
+  add-badge-job:
+    needs: cypress-run
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: ActionArtifact
+        uses: actions/download-artifact@v3
+        with:
+          name: result
+      - run: echo "::set-output name=cypress_outcome::$(cat result.txt)"
+        id: results
+      - uses: ./.github/actions/ReadmeAction
+        env:
+          resultado: ${{ steps.results.outputs.cypress_outcome }}
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: "."
+          author_name: "Sergi Biosca Beneyto"
+          author_email: "serbidaw@gmail.com"
+          message: "Readme Updated"
+          push: true

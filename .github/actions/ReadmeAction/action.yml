@@ -1,0 +1,9 @@
+name: "Readme Action to change Bioskin"
+description: ""
+inputs:
+  resultado:
+    required: true
+    description: "error o exito"
+runs: 
+  using: node16
+  main: dist/index.js
