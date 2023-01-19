@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: CypressIO
-      - uses: cypress-io/github-action@v5
+        uses: cypress-io/github-action@v5
         with:
           config-file: cypress.json
           build: npm run build
