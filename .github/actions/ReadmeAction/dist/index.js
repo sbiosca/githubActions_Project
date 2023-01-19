@@ -63,7 +63,7 @@
     
     const readme = path.resolve('./README.md')
     const resultado = process.env.resultado;
-    let URL = resultado == 'success' ? 'https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg' : 'https://img.shields.io/badge/test-failure-red';
+    let URL = resultado == 'success' ? 'https://thumbs.dreamstime.com/b/succes-19684178.jpg' : 'https://img.shields.io/badge/test-failure-red';
     URL = "![Cypress.io](" + URL + ")"
     
     fs.readFile(readme, 'utf8', function(err, data) {
