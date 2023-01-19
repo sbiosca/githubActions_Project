@@ -4,6 +4,9 @@
     "quotes": ["error", "double"],
     "curly":"error",
     "default-case-last": "error",
-    "no-var": "error"
+    "no-var": "error",
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
+  
 }
