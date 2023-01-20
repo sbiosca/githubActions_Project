@@ -15,7 +15,7 @@
     "author": "Bioskin",
     "license": "ISC",
     "dependencies": {
-        "dotenv": "^14.3.2",
+        "dotenv": "^16.0.3",
         "mailgun-js": "^0.22.0"
     }
 }
