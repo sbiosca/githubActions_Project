@@ -11,4 +11,4 @@ Example of nextjs project using Cypress.io
 =======
 ![Cypress.io](https://thumbs.dreamstime.com/b/succes-19684178.jpg)![Cypress.io](https://thumbs.dreamstime.com/b/succes-19684178.jpg)![Cypress.io](https://thumbs.dreamstime.com/b/succes-19684178.jpg)![Cypress.io](https://thumbs.dreamstime.com/b/succes-19684178.jpg)![Cypress.io](https://thumbs.dreamstime.com/b/succes-19684178.jpg)![Cypress.io](https://thumbs.dreamstime.com/b/succes-19684178.jpg)
 >>>>>>> 24e193a98259fd32521192a71f09f1bed104cad8
-![Cypress.io](https://thumbs.dreamstime.com/b/succes-19684178.jpg)
+![Cypress.io](https://thumbs.dreamstime.com/b/succes-19684178.jpg)![Cypress.io](https://thumbs.dreamstime.com/b/succes-19684178.jpg)
