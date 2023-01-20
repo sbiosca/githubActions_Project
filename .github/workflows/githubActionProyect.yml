@@ -61,5 +61,5 @@ jobs:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           vercel-org-id: ${{ secrets.ORG_ID }}
-          vercel-project-id: ${{ sercrets.PROJECT_ID }}
+          vercel-project-id: ${{ secrets.PROJECT_ID }}
           working-directory: ./
