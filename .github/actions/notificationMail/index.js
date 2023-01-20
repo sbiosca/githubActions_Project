@@ -1,5 +1,4 @@
-const dotenv = require('dotenv');
-dotenv.config();
+require('dotenv').config()
 
 const API_KEY = process.env.API_KEY;
 const DOMAIN = process.env.DOMAIN;
