@@ -1,0 +1,27 @@
+name: "Send email to Bioskin"
+description: ""
+inputs:
+  API_KEY:
+    required: true
+    description: "api-key"
+  DOMAIN:
+    required: true
+    description: "domain"
+  destinatario:
+    required: true
+    description: "destinatario"
+  linter_job:
+    required: true
+    description: "linter_job"
+  cypress_job:
+    required: true
+    description: "cypress_job"
+  add_badge_job:
+    required: true
+    description: "add_badge_job"
+  deploy_job:
+    required: true
+    description: "deploy_job"  
+runs: 
+  using: node16
+  main: ./index.js

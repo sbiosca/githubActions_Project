@@ -1,0 +1,21 @@
+{
+    "name": "send-email-action",
+    "version": "1.0.0",
+    "description": "Send email",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "mailgun api",
+      "send email using node.js",
+      "send email",
+      "send email using mailgun"
+    ],
+    "author": "Bioskin",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^14.3.2",
+      "mailgun-js": "^0.22.0"
+    }
+  }
