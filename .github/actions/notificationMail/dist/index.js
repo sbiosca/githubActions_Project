@@ -13,7 +13,7 @@ function getMessage() {
     return {
       to: 'serbidaw@gmail.com',
       from: 'mailgun@sandbox01e46ee67ff14ffdb12ac35159a48927.mailgun.org',
-      subject: 'Email Action Bioskin',
+      subject: 'Emails Action Bioskin',
       text: body,
       html: `<strong>${body}</strong>`,
     };
