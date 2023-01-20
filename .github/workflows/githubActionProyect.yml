@@ -32,7 +32,7 @@ jobs:
     needs: cypress-run
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: ActionArtifact
         uses: actions/download-artifact@v3
         with:
@@ -49,3 +49,17 @@ jobs:
           author_email: "serbidaw@gmail.com"
           message: "Readme Updated"
           push: true
+  deploy-job:
+    needs: cypress-run
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: VercelAction
+        uses: amondnet/vercel-action@v20
+        id: vercel-action
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          vercel-org-id: ${{ secrets.ORG_ID }}
+          vercel-project-id: ${{ sercrets.PROJECT_ID }}
+          working-directory: ./
