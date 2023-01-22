@@ -168,7 +168,7 @@ Fichero workflow quedando asi:
 
  
 Y añadimos lo siguiente a nuestro readme personal:
-![Metrics](/github-metrics.svg)
+![image](https://user-images.githubusercontent.com/102309782/213938571-c817f30d-f967-4925-a379-d332d433f89c.png)
 
 
 
