@@ -74,3 +74,12 @@ jobs:
           cypress_job: ${{ needs.cypress-run.result }}
           add_badge_job: ${{ needs.add-badge-job.result }}
           deploy_job: ${{ needs.deploy-job.result }}
+  github-metric:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+         with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
