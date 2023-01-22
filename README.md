@@ -161,6 +161,14 @@ Y necesitamos el siguiente archivo encargado de enviar el correo:
 
 ![image](https://user-images.githubusercontent.com/102309782/213938389-35d35a88-fa49-453b-87d9-213a3b142395.png)
 
+Configuración Metrics:
+Fichero workflow quedando asi:
+![image](https://user-images.githubusercontent.com/102309782/213938542-28ffab80-ea45-48ab-b52d-bd73ef3ee6b7.png)
+
+
+ 
+Y añadimos lo siguiente a nuestro readme personal:
+![Metrics](/github-metrics.svg)
 
 
 
