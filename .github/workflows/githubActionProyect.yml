@@ -80,6 +80,5 @@ jobs:
       contents: write
     steps:
       - uses: lowlighter/metrics@latest
-         with:
+        with:
           token: ${{ secrets.METRICS_TOKEN }}
-
