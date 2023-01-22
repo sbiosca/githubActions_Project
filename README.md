@@ -2,6 +2,8 @@ Documentation:
 
 
 ### Primero de todo descargamos el proyecto con next y creamos nuestro repositorio con el código correspondiente al proyecto, quedando de la siguiente manera:
+![image](https://user-images.githubusercontent.com/102309782/213938174-dadda34b-60c2-4416-8056-2baefd8d7403.png)
+
 
 ## Creamos el siguiente workflow que contendrá todas las configuraciones siguientes:
 
